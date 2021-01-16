@@ -9,7 +9,7 @@ import UIKit
 
 public class SplashObject: NSObject {
     
-    static let shared = SplashObject()
+    public static let shared = SplashObject()
     
     public func welcome() -> String {
         return "Greeting from the sky..."
